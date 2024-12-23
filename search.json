@@ -308,7 +308,51 @@
     "href": "bl_ptau_sensitivity_treatvsplacebo.html",
     "title": "Sensitivity Analysis: A4 Treated vs Placebo",
     "section": "",
-    "text": "Need to add in this code.",
+    "text": "pTau ~ Gene x APOEe4",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Treated",
+    "text": "Unaligned Genes in A4 Treated\n6 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Placebo",
+    "text": "Unaligned Genes in A4 Placebo\n11 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated-1",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated-1",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Treated",
+    "text": "Unaligned Genes in A4 Treated\n1 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo-1",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo-1",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Placebo",
+    "text": "Unaligned Genes in A4 Placebo\n87 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
