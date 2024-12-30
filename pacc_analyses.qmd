@@ -489,11 +489,11 @@ rna$Cohort <- as.factor(rna$Cohort)
 rna$QSVERSION <- as.factor(rna$QSVERSION)
 
 bl <- rna %>%
-  filter(!is.na(suvr_cer)) %>%
+  filter(!is.na(ptau217)) %>%
   group_by(BID) %>%
   arrange(BID, pacc_time) %>%
   slice(1) %>%
-  select(BID, bl_Amyloid = suvr_cer, bl_AmyloidStatus = overall_score, bl_ptau217 = ptau217)
+  select(BID, bl_ptau217 = ptau217)
 
 rna <- merge(rna, bl, by = "BID", all.x = TRUE)
 
