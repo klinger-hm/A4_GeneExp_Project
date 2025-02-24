@@ -64,47 +64,97 @@
     "href": "visualizations.html",
     "title": "Visualizations",
     "section": "",
-    "text": "Longitudinal PACC",
+    "text": "Baseline Distributions",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
   },
   {
-    "objectID": "visualizations.html#longitudinal-amyloid",
-    "href": "visualizations.html#longitudinal-amyloid",
+    "objectID": "visualizations.html#pacc",
+    "href": "visualizations.html#pacc",
     "title": "Visualizations",
-    "section": "Longitudinal Amyloid",
-    "text": "Longitudinal Amyloid",
+    "section": "PACC",
+    "text": "PACC",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
   },
   {
-    "objectID": "visualizations.html#longitudinal-tau",
-    "href": "visualizations.html#longitudinal-tau",
+    "objectID": "visualizations.html#amyloid",
+    "href": "visualizations.html#amyloid",
     "title": "Visualizations",
-    "section": "Longitudinal Tau",
-    "text": "Longitudinal Tau",
+    "section": "Amyloid",
+    "text": "Amyloid",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
   },
   {
-    "objectID": "visualizations.html#longitudinal-p-tau217",
-    "href": "visualizations.html#longitudinal-p-tau217",
+    "objectID": "visualizations.html#mtl-tau",
+    "href": "visualizations.html#mtl-tau",
     "title": "Visualizations",
-    "section": "Longitudinal p-tau217",
-    "text": "Longitudinal p-tau217",
+    "section": "MTL Tau",
+    "text": "MTL Tau",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
   },
   {
-    "objectID": "visualizations.html#baseline-p-tau217",
-    "href": "visualizations.html#baseline-p-tau217",
+    "objectID": "visualizations.html#neo-tau",
+    "href": "visualizations.html#neo-tau",
     "title": "Visualizations",
-    "section": "Baseline p-tau217",
-    "text": "Baseline p-tau217",
+    "section": "NEO Tau",
+    "text": "NEO Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#p-tau217",
+    "href": "visualizations.html#p-tau217",
+    "title": "Visualizations",
+    "section": "p-tau217",
+    "text": "p-tau217",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#pacc-1",
+    "href": "visualizations.html#pacc-1",
+    "title": "Visualizations",
+    "section": "PACC",
+    "text": "PACC",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#mtl-tau-1",
+    "href": "visualizations.html#mtl-tau-1",
+    "title": "Visualizations",
+    "section": "MTL Tau",
+    "text": "MTL Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#neo-tau-1",
+    "href": "visualizations.html#neo-tau-1",
+    "title": "Visualizations",
+    "section": "NEO Tau",
+    "text": "NEO Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#p-tau217-1",
+    "href": "visualizations.html#p-tau217-1",
+    "title": "Visualizations",
+    "section": "p-tau217",
+    "text": "p-tau217",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
