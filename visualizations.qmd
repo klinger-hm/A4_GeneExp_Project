@@ -147,7 +147,7 @@ ggplot(rna, aes(x = pacc_time, y = PACC)) +
     )
 ```
 
-# Longitudinal Amyloid
+## Amyloid
 
 ```{r}
 ggplot(rna, aes(x = ab_time, y = suvr_cer)) + 
