@@ -20,7 +20,7 @@ theme_set(theme_bw())
 ```
 
 ```{r}
-## PACC Models
+## Longitudinla PACC Models
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/PACC Models/LME_PACC_Gene_Models_2024-09-02.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/PACC Models/LME_PACC_GeneSex_Models_2024-09-03.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/PACC Models/LME_PACC_GeneE4_Models_2024-09-03.RData")
@@ -28,13 +28,29 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/PACC Models/LME_PACC_GeneAb_Models_2024-12-05.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/PACC Models/LME_PACC_GeneSexAb_Models_2024-12-06.RData")
 
+## Baseline PACC Models
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_Gene_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_GeneSex_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_GeneE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_GeneSexE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_GeneAb_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline PACC Models/LM_BL_PACC_GeneSexAb_Models_2025-02-24.RData")
+
 ## Amyloid Models
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_Gene_Models_2024-09-13.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneSex_Models_2024-09-16.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneE4_Models_2024-12-07.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneSexE4_Models_2024-09-17.RData")
 
+## Baseline Amyloid Models
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Amyloid Models/LM_BL_Ab_Gene_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Amyloid Models/LM_BL_Ab_GeneSex_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Amyloid Models/LM_BL_Ab_GeneE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Amyloid Models/LM_BL_Ab_GeneSexE4_Models_2025-02-24.RData")
+
 ## TAU Models
+
+### MTL
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_MTLTau_Gene_Models_2024-09-12.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_MTLTau_GeneSex_Models_2024-09-12.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_MTLTau_GeneE4_Models_2024-09-12.RData")
@@ -42,6 +58,7 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_MTLTau_GeneAb_Models_2024-09-12.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_MTLTau_GeneSexAb_Models_2024-09-12.RData")
 
+### NEO
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_NEOTau_Gene_Models_2024-09-13.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_NEOTau_GeneSex_Models_2024-09-12.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_NEOTau_GeneE4_Models_2024-09-12.RData")
@@ -49,25 +66,23 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_NEOTau_GeneAb_Models_2024-09-12.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Tau Models/LME_NEOTau_GeneSexAb_Models_2024-09-12.RData")
 
-## Baseline pTAU Models
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_BL_pTAUTable_Gene_Models_2024-10-08.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_BL_pTAUTable_GeneSex_Models_2024-10-08.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneE4_Models_2024-10-08.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneSexE4_Models_2024-10-08.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneAb_Models_2024-10-08.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneSexAb_Models_2024-10-08.RData")
+## Baseline Tau Models
 
-BL_pTAUTable_GeneE4 <- pTAUTable_GeneE4
-BL_pTAUTable_GeneSexE4 <- pTAUTable_GeneSexE4
-BL_pTAUTable_GeneAb <- pTAUTable_GeneAb
-BL_pTAUTable_GeneSexAb <- pTAUTable_GeneSexAb
+### MTL
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_Gene_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_GeneSex_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_GeneE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_GeneSexE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_GeneAb_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_MTL_GeneSexAb_Models_2025-02-24.RData")
 
-BL_pTAUTable_Gene$outcome <- "bl_ptau217"
-BL_pTAUTable_GeneSex$outcome <- "bl_ptau217"
-BL_pTAUTable_GeneE4$outcome <- "bl_ptau217"
-BL_pTAUTable_GeneSexE4$outcome <- "bl_ptau217"
-BL_pTAUTable_GeneAb$outcome <- "bl_ptau217"
-BL_pTAUTable_GeneSexAb$outcome <- "bl_ptau217"
+### NEO
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_Gene_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_GeneSex_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_GeneE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_GeneSexE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_GeneAb_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline Tau Models/LM_BL_NEO_GeneSexAb_Models_2025-02-24.RData")
 
 ## Longitudinal pTAU Models
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/pTAU Models/LME_pTAUTable_Gene_Models_2024-09-19.RData")
@@ -77,6 +92,17 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/pTAU Models/LME_pTAUTable_GeneAb_Models_2024-09-21.RData")
 load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/pTAU Models/LME_pTAUTable_GeneSexAb_Models_2024-09-25.RData")
 
+## Baseline pTAU Models
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_Gene_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneSex_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneSexE4_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneAb_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneSexAb_Models_2025-02-24.RData")
+
+
+BLPACCTable_Gene$outcome <- "Baseline PACC"
+
 gene_names <- readRDS("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/A4_RNAseq_GeneNames_081424.rds")
 gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, external_gene_name)
 ```
@@ -84,20 +110,30 @@ gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, extern
 ## Phenotype \~ Gene
 
 ```{r}
-Gene <- rbind.fill(PACCTable_Gene, AbTable_Gene, MTLTauTable_Gene, NEOTauTable_Gene, pTAUTable_Gene, BL_pTAUTable_Gene)
+Gene <- rbind.fill(BLPACCTable_Gene, BLAbTable_Gene, BLMTLTable_Gene, BLNEOTable_Gene, BL_pTAUTable_Gene,
+                   PACCTable_Gene, AbTable_Gene, MTLTauTable_Gene, NEOTauTable_Gene, pTAUTable_Gene)
+
 Gene <- Gene %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+Gene$outcome <- factor(Gene$outcome, 
+                       levels = c("Baseline PACC", "Baseline suvr_cer", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "suvr_cer", "MTL", "NEO", "ptau217"))
+
+phenotype_labels <- c("Baseline PACC", "Baseline Amyloid", "Baseline MTL Tau", "Baseline NEO Tau", "Baseline p-tau217",
+                      "PACC", "Amyloid", "MTL Tau", "NEO Tau", "p-tau217")
 ```
 
 ```{r}
 ggplot(Gene, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
   geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, external_gene_name, ""))) +
@@ -111,20 +147,26 @@ ggplot(Gene, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
 ## Phenotype \~ Gene x Sex
 
 ```{r}
-GeneSex <- rbind.fill(PACCTable_GeneSex, AbTable_GeneSex, MTLTauTable_GeneSex, NEOTauTable_GeneSex, pTAUTable_GeneSex, BL_pTAUTable_GeneSex)
+GeneSex <- rbind.fill(BLPACCTable_GeneSex, BLAbTable_GeneSex, BLMTLTable_GeneSex, BLNEOTable_GeneSex, BL_pTAUTable_GeneSex,
+                      PACCTable_GeneSex, AbTable_GeneSex, MTLTauTable_GeneSex, NEOTauTable_GeneSex, pTAUTable_GeneSex)
 GeneSex <- GeneSex %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+GeneSex$outcome <- factor(GeneSex$outcome, 
+                       levels = c("Baseline PACC", "Baseline suvr_cer", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "suvr_cer", "MTL", "NEO", "ptau217"))
 ```
 
 ```{r}
 ggplot(GeneSex, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
   geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, external_gene_name, ""))) +
@@ -138,23 +180,30 @@ ggplot(GeneSex, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
 ## Phenotype \~ Gene x APOEe4
 
 ```{r}
-GeneE4 <- rbind.fill(PACCTable_GeneE4, AbTable_GeneE4, MTLTauTable_GeneE4, NEOTauTable_GeneE4, pTAUTable_GeneE4, BL_pTAUTable_GeneE4)
+GeneE4 <- rbind.fill(BLPACCTable_GeneE4, BLAbTable_GeneE4, BLMTLTable_GeneE4, BLNEOTable_GeneE4, BL_pTAUTable_GeneE4,
+                     PACCTable_GeneE4, AbTable_GeneE4, MTLTauTable_GeneE4, NEOTauTable_GeneE4, pTAUTable_GeneE4)
 GeneE4 <- GeneE4 %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+GeneE4$outcome <- factor(GeneE4$outcome, 
+                       levels = c("Baseline PACC", "Baseline suvr_cer", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "suvr_cer", "MTL", "NEO", "ptau217"))
+
 ```
 
 ```{r}
 ggplot(GeneE4, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
-  geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, gene, "")), 
+  geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, external_gene_name, "")), 
                    nudge_x = -0.1) +
   labs(
     title = "Phenotype ~ Gene*APOEe4 FDR Corrected P-Values",
@@ -165,23 +214,30 @@ ggplot(GeneE4, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
 ## Phenotype \~ Gene x Sex x APOEe4
 
 ```{r}
-GeneSexE4 <- rbind.fill(PACCTable_GeneSexE4_wDose, AbTable_GeneSexE4, MTLTauTable_GeneSexE4, NEOTauTable_GeneSexE4, pTAUTable_GeneSexE4, BL_pTAUTable_GeneSexE4)
+GeneSexE4 <- rbind.fill(BLPACCTable_GeneSexE4, BLAbTable_GeneSexE4, BLMTLTable_GeneSexE4, BLNEOTable_GeneSexE4, BL_pTAUTable_GeneSexE4,
+                        PACCTable_GeneSexE4_wDose, AbTable_GeneSexE4, MTLTauTable_GeneSexE4, NEOTauTable_GeneSexE4, pTAUTable_GeneSexE4)
 GeneSexE4 <- GeneSexE4 %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+GeneSexE4$outcome <- factor(GeneSexE4$outcome, 
+                       levels = c("Baseline PACC", "Baseline suvr_cer", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "suvr_cer", "MTL", "NEO", "ptau217"))
+
 ```
 
 ```{r}
 ggplot(GeneSexE4, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
-  geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, gene, ""))) +
+  geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1.3, external_gene_name, ""))) +
   labs(
     title = "Phenotype ~ Gene*Sex*APOEe4 FDR Corrected P-Values",
     x = "Phenotype"
@@ -191,20 +247,27 @@ ggplot(GeneSexE4, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
 ## Phenotype \~ Gene x Amyloid
 
 ```{r}
-GeneAb <- rbind.fill(PACCTable_GeneAb_wDose, MTLTauTable_GeneAb, NEOTauTable_GeneAb, pTAUTable_GeneAb, BL_pTAUTable_GeneAb)
+GeneAb <- rbind.fill(BLPACCTable_GeneAb, BLMTLTable_GeneAb, BLNEOTable_GeneAb, BL_pTAUTable_GeneAb,
+                     PACCTable_GeneAb_wDose, MTLTauTable_GeneAb, NEOTauTable_GeneAb, pTAUTable_GeneAb)
 GeneAb <- GeneAb %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+GeneAb$outcome <- factor(GeneAb$outcome, 
+                       levels = c("Baseline PACC", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "MTL", "NEO", "ptau217"))
+
 ```
 
 ```{r}
 ggplot(GeneAb, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels[-c(2,7)]) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
   #geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1, external_gene_name, ""))) +
@@ -217,23 +280,30 @@ ggplot(GeneAb, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
 ## Phenotype \~ Gene x Sex x Amyloid
 
 ```{r}
-GeneSexAb <- rbind.fill(PACCTable_GeneSexAb_wDose, MTLTauTable_GeneSexAb, NEOTauTable_GeneSexAb, pTAUTable_GeneSexAb, BL_pTAUTable_GeneSexAb)
+GeneSexAb <- rbind.fill(BLPACCTable_GeneSexAb, BLMTLTable_GeneSexAb, BLNEOTable_GeneSexAb, BL_pTAUTable_GeneSexAb,
+                        PACCTable_GeneSexAb_wDose, MTLTauTable_GeneSexAb, NEOTauTable_GeneSexAb, pTAUTable_GeneSexAb)
 GeneSexAb <- GeneSexAb %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     fdr_p < 0.05 ~ T,
     TRUE ~ F
   ))
+
+GeneSexAb$outcome <- factor(GeneSexAb$outcome, 
+                       levels = c("Baseline PACC", "Baseline MTL", "Baseline NEO", "Baseline ptau217",
+                                  "PACC", "MTL", "NEO", "ptau217"))
+
 ```
 
 ```{r}
 ggplot(GeneSexAb, aes(x = outcome, y = -log10(fdr_p), color = Sig)) +
   geom_jitter() +
-  scale_x_discrete(labels = c("Baseline pTau-217", "MTL Tau", "NEO Tau", "PACC", "pTau-217", "Amyloid")) +
-  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_x_discrete(labels = phenotype_labels[-c(2,7)]) +
+  theme(legend.position = "none", panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.text.x = element_text(angle = 25, hjust = 1)) +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed") +
   scale_colour_manual(values = setNames(c('seagreen','black'), c(T, F))) +
-  #geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 1, external_gene_name, ""))) +
+  geom_label_repel(aes(label = ifelse(-log10(fdr_p) > 4, external_gene_name, ""))) +
   labs(
     title = "Phenotype ~ Gene*Sex*Amyloid FDR Corrected P-Values",
     x = "Phenotype"
