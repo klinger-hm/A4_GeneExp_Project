@@ -1,0 +1,87 @@
+---
+title: "Model Summaries/Results"
+---
+
+The following analyses were run adjusted for baseline age, and sex. Baseline models adjusted for cohort (A4 vs LEARN), while longitudinal models adjusted for cohort (A4 Placebo vs A4 Treated vs LEARN/SF). PACC models additionally adjusted for education and p-tau217 models additionally adjusted for BMI. 
+
+Models highlighted in yellow yielded significant results after FDR correction. 
+
+**1. Baseline PACC**
+
+    i. PACC ~ Gene
+    ii. PACC ~ Gene x Sex
+    iii. PACC ~ Gene x E4
+    iv. PACC ~ Gene x Sex x E4
+    v. PACC ~ Gene x Amyloid
+    vi. PACC ~ Gene x Sex x Amyloid
+  
+**2. Baseline Amyloid**
+
+    i. Amyloid ~ Gene
+    ii. Amyloid ~ Gene x Sex
+    iii. Amyloid ~ Gene x E4
+    iv. Amyloid ~ Gene x Sex x E4
+  
+**3. Baseline MTL Tau**
+
+    i. MTL ~ Gene
+    ii. MTL ~ Gene x Sex
+    iii. MTL ~ Gene x E4
+    iv. MTL ~ Gene x Sex x E4
+    v. MTL ~ Gene x Amyloid
+    vi. MTL ~ Gene x Sex x Amyloid
+  
+**4. Baseline NEO Tau**
+
+    i. NEO ~ Gene
+    ii. NEO ~ Gene x Sex
+    iii. NEO ~ Gene x E4
+    iv. NEO ~ Gene x Sex x E4
+    v. NEO ~ Gene x Amyloid
+    vi. NEO ~ Gene x Sex x Amyloid
+  
+**5. Baseline p-tau217**
+
+    i. p-tau217 ~ Gene
+    ii. p-tau217 ~ Gene x Sex
+    <span style="color: yellow;"> iii. p-tau217 ~ Gene x E4 </span>
+    iii. p-tau217 ~ Gene x Sex x E4
+  
+**6. Longitudinal PACC**
+
+    i. PACC ~ Gene
+    ii. PACC ~ Gene x Sex
+    iii. PACC ~ Gene x E4
+
+**7. Longitudinal Amyloid**
+
+    i. Amyloid ~ Gene
+    ii. Amyloid ~ Gene x Sex
+    iii. Amyloid ~ Gene x Sex x E4
+  
+**8. Longitudinal MTL Tau**
+
+    i. MTL ~ Gene
+    ii. MTL ~ Gene x Sex
+    iii. MTL ~ Gene x E4
+    iv. MTL ~ Gene x Sex x E4
+    v. MTL ~ Gene x Amyloid
+    vi. MTL ~ Gene x Sex x Amyloid
+  
+**9. Longitudinal NEO Tau**
+
+    i. NEO ~ Gene
+    ii. NEO ~ Gene x Sex
+    iii. NEO ~ Gene x E4
+    iv. NEO ~ Gene x Sex x E4
+    v. NEO ~ Gene x Amyloid
+    vi. NEO ~ Gene x Sex x Amyloid
+  
+**10. Longitudinal p-tau217**
+    i. p-tau217 ~ Gene
+    ii. p-tau217 ~ Gene x Sex
+    iii. p-tau217 ~ Gene x E4
+    iv. p-tau217 ~ Gene x Sex x E4
+    v. p-tau217 ~ Gene x Amyloid
+    vi. p-tau217 ~ Gene x Sex x Amyloid
+  
