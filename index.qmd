@@ -6,7 +6,7 @@ The data used for this project includes **all** A4 and LEARN participants (inclu
 
 Project Aims:
 
-1.  Test the association of gene expression with longitudinal PACC, longitudinal amyloid, longitudinal tau, longitudinal ptau, and baseline ptau.
+1.  Test the association of gene expression with baseline and longitudinal PACC, amyloid, tau, and p-tau217.
 
 2.  See if these associations are modified by sex, APOEe4 status, sex x APOEe4 status, amyloid burden, amyloid burden x sex.
 
