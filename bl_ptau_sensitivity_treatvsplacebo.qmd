@@ -14,6 +14,7 @@ library(ggrepel)
 library(readr)
 library(DT)
 library(tidyr)
+library(rstatix)
 
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 theme_set(theme_bw())
@@ -40,6 +41,35 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/Ba
 
 ```{r}
 gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, external_gene_name)
+```
+
+# Group Differences
+
+```{r}
+A4 <- rna %>%
+  filter(Cohort == "A4 Placebo" | Cohort == "A4 Treated") %>%
+  select(Cohort, starts_with("ENSG")) %>%
+  distinct() %>%
+  pivot_longer(!Cohort, names_to = "gene_name", values_to = "gene_expression")
+
+stat.test <- A4 %>%
+  filter(!is.na(gene_expression)) %>%
+  group_by(gene_name) %>%
+  t_test(gene_expression ~ Cohort) %>%
+  adjust_pvalue(method = "fdr") %>%
+  add_significance()
+
+diff <- filter(stat.test, p < 0.05)
+
+datatable(select(diff, -c(.y.)),
+          filter = "top",
+          rownames = FALSE,
+          extensions = c('Buttons'),
+          options = list(dom = 'Btip',
+                         buttons = c('copy', 'csv'),
+                         pageLength = 15,
+                         columnDefs = list(list(className = 'dt-center', targets = "_all")))) 
+
 ```
 
 # pTau \~ Gene x APOEe4
