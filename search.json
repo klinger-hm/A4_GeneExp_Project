@@ -324,6 +324,46 @@
     ]
   },
   {
+    "objectID": "amyloid_analyses.html",
+    "href": "amyloid_analyses.html",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#volcano-plot",
+    "href": "amyloid_analyses.html#volcano-plot",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#summary-table",
+    "href": "amyloid_analyses.html#summary-table",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#significant-results-plots",
+    "href": "amyloid_analyses.html#significant-results-plots",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+    ]
+  },
+  {
     "objectID": "bl_ptau_analyses.html",
     "href": "bl_ptau_analyses.html",
     "title": "Baseline p-tau217 Analyses",
@@ -371,7 +411,7 @@
     "text": "pTau ~ Gene x APOEe4",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -382,7 +422,7 @@
     "text": "Unaligned Genes in A4 Treated\n6 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -393,7 +433,7 @@
     "text": "Unaligned Genes in A4 Placebo\n11 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -404,7 +444,7 @@
     "text": "Unaligned Genes in A4 Treated\n1 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -415,7 +455,7 @@
     "text": "Unaligned Genes in A4 Placebo\n87 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   }
 ]
