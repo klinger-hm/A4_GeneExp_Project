@@ -170,13 +170,23 @@
     ]
   },
   {
+    "objectID": "model_summary.html",
+    "href": "model_summary.html",
+    "title": "Analysis Overview",
+    "section": "",
+    "text": "The following analyses were run adjusted for baseline age, and sex. Baseline models adjusted for cohort (A4 vs LEARN), while longitudinal models adjusted for cohort (A4 Placebo vs A4 Treated vs LEARN/SF). PACC models additionally adjusted for education and p-tau217 models additionally adjusted for BM+\nModels highlighted in orange yielded significant results after FDR correction.\n1. Baseline PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\nPACC ~ Gene x Sex x E4\nPACC ~ Gene x Amyloid\nPACC ~ Gene x Sex x Amyloid\n\n2. Baseline Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x E4\nAmyloid ~ Gene x Sex x E4\n\n3. Baseline MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n4. Baseline NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n5. Baseline p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex \np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Ab\np-tau217 ~ Gene x Sex x Ab\n\n6. Longitudinal PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\n PACC ~ Gene x Sex x E4 \n PACC ~ Gene x Ab \n PACC ~ Gene x Sex x Ab \n\n7. Longitudinal Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\n Amyloid ~ Gene x E4 \nAmyloid ~ Gene x Sex x E4\n\n8. Longitudinal MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n9. Longitudinal NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n10. Longitudinal p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex\np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Amyloid\np-tau217 ~ Gene x Sex x Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Analysis Overview</span>"
+    ]
+  },
+  {
     "objectID": "manhattan_plots.html",
     "href": "manhattan_plots.html",
     "title": "Manhattan Plots",
     "section": "",
     "text": "Phenotype ~ Gene",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -186,7 +196,7 @@
     "section": "Phenotype ~ Gene x Sex",
     "text": "Phenotype ~ Gene x Sex",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -196,7 +206,7 @@
     "section": "Phenotype ~ Gene x APOEe4",
     "text": "Phenotype ~ Gene x APOEe4",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -206,7 +216,7 @@
     "section": "Phenotype ~ Gene x Sex x APOEe4",
     "text": "Phenotype ~ Gene x Sex x APOEe4",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -216,7 +226,7 @@
     "section": "Phenotype ~ Gene x Amyloid",
     "text": "Phenotype ~ Gene x Amyloid",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -226,7 +236,7 @@
     "section": "Phenotype ~ Gene x Sex x Amyloid",
     "text": "Phenotype ~ Gene x Sex x Amyloid",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Manhattan Plots</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
   },
   {
@@ -287,7 +297,7 @@
     "text": "Females\nThe following analysis include running PACC ~ GeneExp*Ab in only males and only females in the genes that survived FDR correction in the PACC ~ GeneExp*Sex*Ab analyses.",
     "crumbs": [
       "Longitudinal PACC Analyses",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
     ]
   },
   {
@@ -298,7 +308,7 @@
     "text": "Summary Table\n\n\n\n\n\n\n\n\nPlotted Output\n\nENSG00000205356ENSG00000162543",
     "crumbs": [
       "Longitudinal PACC Analyses",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
     ]
   },
   {
@@ -309,7 +319,7 @@
     "text": "Males\n\nSummary Table\n\n\n\n\n\n\n\n\nPlotted Output\n\nENSG00000279245ENSG00000164308",
     "crumbs": [
       "Longitudinal PACC Analyses",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
     ]
   },
   {
@@ -320,7 +330,7 @@
     "text": "still need to run this analysis",
     "crumbs": [
       "Longitudinal PACC Analyses",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs A4 Placebo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs A4 Placebo</span>"
     ]
   },
   {
@@ -330,7 +340,7 @@
     "section": "",
     "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
     ]
   },
   {
@@ -340,7 +350,7 @@
     "section": "Volcano Plot",
     "text": "Volcano Plot",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
     ]
   },
   {
@@ -350,7 +360,7 @@
     "section": "Summary Table",
     "text": "Summary Table",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
     ]
   },
   {
@@ -360,7 +370,7 @@
     "section": "Significant Results Plots",
     "text": "Significant Results Plots\n\nENSG00000233785",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
     ]
   },
   {
@@ -408,10 +418,10 @@
     "href": "bl_ptau_sensitivity_treatvsplacebo.html",
     "title": "Sensitivity Analysis: A4 Treated vs Placebo",
     "section": "",
-    "text": "pTau ~ Gene x APOEe4",
+    "text": "Group Differences",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -422,7 +432,7 @@
     "text": "Unaligned Genes in A4 Treated\n6 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -433,7 +443,7 @@
     "text": "Unaligned Genes in A4 Placebo\n11 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -444,7 +454,7 @@
     "text": "Unaligned Genes in A4 Treated\n1 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
     ]
   },
   {
@@ -455,7 +465,17 @@
     "text": "Unaligned Genes in A4 Placebo\n87 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "null_results.html",
+    "href": "null_results.html",
+    "title": "Null Results",
+    "section": "",
+    "text": "The following analyses did not reveal any significant results after fdr correction:\n1. Baseline PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\nPACC ~ Gene x Sex x E4\nPACC ~ Gene x Amyloid\nPACC ~ Gene x Sex x Amyloid\n\n2. Baseline Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x E4\nAmyloid ~ Gene x Sex x E4\n\n3. Baseline MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n4. Baseline NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n5. Baseline p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex \np-tau217 ~ Gene x Sex x E4\n\n6. Longitudinal PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\n\n7. Longitudinal Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x Sex x E4\n\n8. Longitudinal MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n9. Longitudinal NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n10. Longitudinal p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex\np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Amyloid\np-tau217 ~ Gene x Sex x Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Null Results</span>"
     ]
   }
 ]
