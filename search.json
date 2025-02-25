@@ -340,7 +340,7 @@
     "section": "",
     "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "Longitudinal Amyloid Analyses"
     ]
   },
   {
@@ -350,7 +350,7 @@
     "section": "Volcano Plot",
     "text": "Volcano Plot",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "Longitudinal Amyloid Analyses"
     ]
   },
   {
@@ -360,7 +360,7 @@
     "section": "Summary Table",
     "text": "Summary Table",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "Longitudinal Amyloid Analyses"
     ]
   },
   {
@@ -370,7 +370,51 @@
     "section": "Significant Results Plots",
     "text": "Significant Results Plots\n\nENSG00000233785",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Longitudinal Amyloid Analyses</span>"
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html",
+    "href": "amyloid_sensitivity_nosf.html",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "",
+    "text": "Significant Results Table\nThe following analyses are re-run versions of our previously found significant results, but this time only including participants from A4 and LEARN (not including participants who screen failed and don’t have longitudinal data).\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "href": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#summary-table",
+    "href": "amyloid_sensitivity_nosf.html#summary-table",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "href": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
     ]
   },
   {
