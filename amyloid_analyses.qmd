@@ -1,0 +1,140 @@
+---
+title: "Longitudinal Amyloid Analyses"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+     prefer-html: true
+---
+
+```{r setup, include = FALSE, warning = FALSE, message = FALSE}
+library(plyr)
+library(nlme)
+library(ggplot2)
+library(sjPlot)
+library(dplyr)
+library(gtsummary)
+library(flextable)
+library(ggrepel)
+library(readr)
+library(DT)
+library(tidyr)
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+theme_set(theme_bw())
+```
+
+```{r}
+load(file = "~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/RNAseqData_Autosomal_XLinked_wDose_121124.RData")
+
+gene_names <- readRDS("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/A4_RNAseq_GeneNames_081424.rds")
+
+## Ab Models
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneE4_Models_2024-12-07.RData")
+```
+
+```{r}
+gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, external_gene_name)
+```
+
+# Significant Results Table
+
+Summary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:
+
+1.  Amyloid \~ GeneExp
+2.  Amyloid \~ GeneExp\*Sex
+3.  Amyloid \~ GeneExp\*E4
+4.  Amyloid \~ GeneExp\*Sex\*E4
+
+```{r}
+AbTable_GeneE4$predictor <- "Gene*E4"
+
+All_Genes_Sig <- filter(AbTable_GeneE4, fdr_p < 0.05)
+all_sig_genes <- unique(All_Genes_Sig$gene)
+```
+
+```{r}
+datatable(All_Genes_Sig,
+          filter = "top",
+          rownames = FALSE,
+          extensions = c('Buttons'),
+          options = list(dom = 'Btip',
+                         buttons = c('copy', 'csv'),
+                         pageLength = 15,
+                         columnDefs = list(list(className = 'dt-center', targets = "_all")))) %>%
+  formatRound(columns = c("beta","se", "t", "p", "fdr_p"), digits = 4) %>% 
+  formatStyle("fdr_p", color = styleInterval(0.05, c("red", "black")))
+```
+
+# Amyloid ~ Gene x APOEe4 {.tabset}
+
+
+```{r}
+AbTable_GeneE4 <- AbTable_GeneE4 %>%
+  left_join(gene_names, by = "gene") %>%
+  mutate(Sig = case_when(
+    p < 0.05 ~ T,
+    TRUE ~ F
+  ))
+```
+
+There is `r length(subset(AbTable_GeneE4, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
+
+## Volcano Plot
+
+```{r}
+sig_bon <- -log10(0.05/length(unique(AbTable_GeneE4$gene))) #Bonferroni correction for plotting
+
+ggplot(AbTable_GeneE4, aes(x = beta, y = -log10(p), color = Sig)) +
+  geom_point() +
+  geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed", size = 1.2) +
+  geom_hline(yintercept = sig_bon, color = "blue", linetype = "dashed", size = 1) +
+  theme(legend.position = "none") +
+  scale_colour_manual(values = setNames(c('seagreen','black'), c(T,F))) +
+  geom_text(x = 0.07, y = 0.9, label = "p = 0.05", check_overlap = TRUE, color = "black") +
+  geom_text(x = 0.061, y = (sig_bon-0.5), label = "p = 0.05 \n Bonferroni corrected", check_overlap = TRUE, color = "black") +
+  geom_label_repel(aes(label = ifelse(-log10(p) > 5, external_gene_name, "")), 
+                   nudge_x = 0, nudge_y = 0.04, min.segment.length = 0) +
+  labs(
+    title = "Amyloid ~ Gene*APOEe4 Non-Adjusted P-Values"
+  )
+```
+
+## Summary Table
+
+```{r}
+datatable(subset(AbTable_GeneE4, Sig == T),
+          filter = "top",
+          rownames = FALSE,
+          extensions = c('Buttons'),
+          options = list(dom = 'Btip',
+                         buttons = c('copy', 'csv'),
+                         pageLength = 15,
+                         columnDefs = list(list(className = 'dt-center', targets = "_all")))) %>%
+  formatRound(columns = c("beta","se", "t", "p", "fdr_p"), digits = 4) %>%
+  formatStyle("fdr_p", color = styleInterval(0.05, c("red", "black")))
+```
+
+## Significant Results Plots
+
+### ENSG00000233785
+
+```{r}
+rna$APOE <- as.factor(rna$APOE)
+rna$SEX <- as.factor(rna$SEX)
+rna$Cohort <- as.factor(rna$Cohort)
+
+fit <- lme(suvr_cer ~ ENSG00000233785*APOE*ab_time + bl_ab_age*ab_time + SEX*ab_time + Cohort*ab_time,
+           data = rna, random =~ ab_time | BID, na.action = "na.omit", 
+           control = list(opt = 'optim', msMaxIter = 1000, msMaxEval = 1000))
+
+
+plot_model(fit, type = "pred", terms = c("ab_time", "ENSG00000233785", "APOE")) +
+  #theme(strip.background = element_rect(fill = "white")) +
+  labs(
+    x = "Time (Years)",
+    y = "Longitudinal Amyloid",
+    title = bquote("Longitudinal Amyloid by SAT1-DT and APOEε4"),
+    color = "ENSG00000233785\n(SAT1-DT)"
+  )
+```
+
