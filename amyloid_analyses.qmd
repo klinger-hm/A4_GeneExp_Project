@@ -127,9 +127,8 @@ fit <- lme(suvr_cer ~ ENSG00000233785*APOE*ab_time + bl_ab_age*ab_time + SEX*ab_
            data = rna, random =~ ab_time | BID, na.action = "na.omit", 
            control = list(opt = 'optim', msMaxIter = 1000, msMaxEval = 1000))
 
-
 plot_model(fit, type = "pred", terms = c("ab_time", "ENSG00000233785", "APOE")) +
-  #theme(strip.background = element_rect(fill = "white")) +
+  theme(strip.background = element_rect(fill = "white")) +
   labs(
     x = "Time (Years)",
     y = "Longitudinal Amyloid",
