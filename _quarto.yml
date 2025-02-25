@@ -12,6 +12,7 @@ book:
     - index.qmd
     - demographics.qmd
     - visualizations.qmd
+    - model_summary.qmd
     - manhattan_plots.qmd
     - part: pacc_analyses.qmd
       chapters:
