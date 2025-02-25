@@ -18,7 +18,9 @@ book:
       chapters:
         - pacc_sensitivity_sexstratified.qmd
         - pacc_sensitivity_treatvsplacebo.qmd
-    - amyloid_analyses.qmd
+    - part: amyloid_analyses.qmd
+      chapters: 
+        - amyloid_sensitivity_nosf.qmd
     - part: bl_ptau_analyses.qmd 
       chapters:
         - bl_ptau_sensitivity_treatvsplacebo.qmd

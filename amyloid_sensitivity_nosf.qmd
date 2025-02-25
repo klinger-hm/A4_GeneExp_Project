@@ -29,26 +29,25 @@ load(file = "~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expres
 gene_names <- readRDS("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/A4_RNAseq_GeneNames_081424.rds")
 
 ## Ab Models
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneE4_Models_2024-12-07.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Amyloid Models/LME_Ab_GeneE4_NoSF_Models_2025-02-25.RData")
 ```
 
 ```{r}
 gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, external_gene_name)
 ```
 
+The following analyses are re-run versions of our previously found significant results, but this time only including participants from A4 and LEARN (not including participants who screen failed and don't have longitudinal data).
+
 # Significant Results Table
 
 Summary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:
 
-1.  Amyloid \~ GeneExp
-2.  Amyloid \~ GeneExp\*Sex
-3.  Amyloid \~ GeneExp\*E4
-4.  Amyloid \~ GeneExp\*Sex\*E4
+1.  Amyloid \~ GeneExp\*E4
 
 ```{r}
-AbTable_GeneE4$predictor <- "Gene*E4"
+AbTable_GeneE4_NoSF$predictor <- "Gene*E4"
 
-All_Genes_Sig <- filter(AbTable_GeneE4, fdr_p < 0.05)
+All_Genes_Sig <- filter(AbTable_GeneE4_NoSF, fdr_p < 0.05)
 all_sig_genes <- unique(All_Genes_Sig$gene)
 ```
 
@@ -69,7 +68,7 @@ datatable(All_Genes_Sig,
 
 
 ```{r}
-AbTable_GeneE4 <- AbTable_GeneE4 %>%
+AbTable_GeneE4_NoSF <- AbTable_GeneE4_NoSF %>%
   left_join(gene_names, by = "gene") %>%
   mutate(Sig = case_when(
     p < 0.05 ~ T,
@@ -77,14 +76,14 @@ AbTable_GeneE4 <- AbTable_GeneE4 %>%
   ))
 ```
 
-There is `r length(subset(AbTable_GeneE4, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
+There is `r length(subset(AbTable_GeneE4_NoSF, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
 
 ## Volcano Plot
 
 ```{r}
-sig_bon <- -log10(0.05/length(unique(AbTable_GeneE4$gene))) #Bonferroni correction for plotting
+sig_bon <- -log10(0.05/length(unique(AbTable_GeneE4_NoSF$gene))) #Bonferroni correction for plotting
 
-ggplot(AbTable_GeneE4, aes(x = beta, y = -log10(p), color = Sig)) +
+ggplot(AbTable_GeneE4_NoSF, aes(x = beta, y = -log10(p), color = Sig)) +
   geom_point() +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed", size = 1.2) +
   geom_hline(yintercept = sig_bon, color = "blue", linetype = "dashed", size = 1) +
@@ -102,7 +101,7 @@ ggplot(AbTable_GeneE4, aes(x = beta, y = -log10(p), color = Sig)) +
 ## Summary Table
 
 ```{r}
-datatable(subset(AbTable_GeneE4, Sig == T),
+datatable(subset(AbTable_GeneE4_NoSF, Sig == T),
           filter = "top",
           rownames = FALSE,
           extensions = c('Buttons'),
@@ -124,7 +123,7 @@ rna$SEX <- as.factor(rna$SEX)
 rna$Cohort <- as.factor(rna$Cohort)
 
 fit <- lme(suvr_cer ~ ENSG00000233785*APOE*ab_time + bl_ab_age*ab_time + SEX*ab_time + Cohort*ab_time,
-           data = rna, random =~ ab_time | BID, na.action = "na.omit", 
+           data = subset(rna, SUBSTUDY != "SF"), random =~ ab_time | BID, na.action = "na.omit", 
            control = list(opt = 'optim', msMaxIter = 1000, msMaxEval = 1000))
 
 plot_model(fit, type = "pred", terms = c("ab_time", "ENSG00000233785", "APOE")) +
