@@ -4,72 +4,82 @@ title: "Null Results"
 
 The following analyses did not reveal any significant results after fdr correction:
 
-1. Baseline PACC
-  1. PACC ~ Gene
-  2. PACC ~ Gene x Sex
-  3. PACC ~ Gene x E4
-  4. PACC ~ Gene x Sex x E4
-  5. PACC ~ Gene x Amyloid
-  6. PACC ~ Gene x Sex x Amyloid
-  
-2. Baseline Amyloid
-  1. Amyloid ~ Gene
-  2. Amyloid ~ Gene x Sex
-  3. Amyloid ~ Gene x E4
-  4. Amyloid ~ Gene x Sex x E4
-  
-3. Baseline MTL Tau
-  1. MTL ~ Gene
-  2. MTL ~ Gene x Sex
-  3. MTL ~ Gene x E4
-  4. MTL ~ Gene x Sex x E4
-  5. MTL ~ Gene x Amyloid
-  6. MTL ~ Gene x Sex x Amyloid
-  
-4. Baseline NEO Tau
-  1. NEO ~ Gene
-  2. NEO ~ Gene x Sex
-  3. NEO ~ Gene x E4
-  4. NEO ~ Gene x Sex x E4
-  5. NEO ~ Gene x Amyloid
-  6. NEO ~ Gene x Sex x Amyloid
-  
-5. Baseline p-tau217
-  1. p-tau217 ~ Gene
-  2. p-tau217 ~ Gene x Sex
-  3. p-tau217 ~ Gene x Sex x E4
-  
-6. Longitudinal PACC
-  1. PACC ~ Gene
-  2. PACC ~ Gene x Sex
-  3. PACC ~ Gene x E4
+**1. Baseline PACC**
 
-7. Longitudinal Amyloid
-  1. Amyloid ~ Gene
-  2. Amyloid ~ Gene x Sex
-  4. Amyloid ~ Gene x Sex x E4
-  
-8. Longitudinal MTL Tau
-  1. MTL ~ Gene
-  2. MTL ~ Gene x Sex
-  3. MTL ~ Gene x E4
-  4. MTL ~ Gene x Sex x E4
-  5. MTL ~ Gene x Amyloid
-  6. MTL ~ Gene x Sex x Amyloid
-  
-9. Longitudinal NEO Tau
-  1. NEO ~ Gene
-  2. NEO ~ Gene x Sex
-  3. NEO ~ Gene x E4
-  4. NEO ~ Gene x Sex x E4
-  5. NEO ~ Gene x Amyloid
-  6. NEO ~ Gene x Sex x Amyloid
-  
-10. Longitudinal p-tau217
-  1. p-tau217 ~ Gene
-  2. p-tau217 ~ Gene x Sex
-  3. p-tau217 ~ Gene x E4
-  4. p-tau217 ~ Gene x Sex x E4
-  5. p-tau217 ~ Gene x Amyloid
-  6. p-tau217 ~ Gene x Sex x Amyloid
-  
++ PACC ~ Gene
++ PACC ~ Gene x Sex
++ PACC ~ Gene x E4
++ PACC ~ Gene x Sex x E4
++ PACC ~ Gene x Amyloid
++ PACC ~ Gene x Sex x Amyloid
+
+**2. Baseline Amyloid**
+      
++ Amyloid ~ Gene
++ Amyloid ~ Gene x Sex
++ Amyloid ~ Gene x E4
++ Amyloid ~ Gene x Sex x E4
+
+**3. Baseline MTL Tau**
+      
++ MTL ~ Gene
++ MTL ~ Gene x Sex
++ MTL ~ Gene x E4
++ MTL ~ Gene x Sex x E4
++ MTL ~ Gene x Amyloid
++ MTL ~ Gene x Sex x Amyloid
+
+**4. Baseline NEO Tau**
+      
++ NEO ~ Gene
++ NEO ~ Gene x Sex
++ NEO ~ Gene x E4
++ NEO ~ Gene x Sex x E4
++ NEO ~ Gene x Amyloid
++ NEO ~ Gene x Sex x Amyloid
+
+**5. Baseline p-tau217**
+
++ p-tau217 ~ Gene
++ p-tau217 ~ Gene x Sex <br>
++ p-tau217 ~ Gene x Sex x E4
+
+**6. Longitudinal PACC**
+
++ PACC ~ Gene
++ PACC ~ Gene x Sex
++ PACC ~ Gene x E4
+
+**7. Longitudinal Amyloid**
+
++ Amyloid ~ Gene
++ Amyloid ~ Gene x Sex
++ Amyloid ~ Gene x Sex x E4
+
+
+**8. Longitudinal MTL Tau**
+
++ MTL ~ Gene
++ MTL ~ Gene x Sex
++ MTL ~ Gene x E4
++ MTL ~ Gene x Sex x E4
++ MTL ~ Gene x Amyloid
++ MTL ~ Gene x Sex x Amyloid
+
+**9. Longitudinal NEO Tau**
+      
++ NEO ~ Gene
++ NEO ~ Gene x Sex
++ NEO ~ Gene x E4
++ NEO ~ Gene x Sex x E4
++ NEO ~ Gene x Amyloid
++ NEO ~ Gene x Sex x Amyloid
+
+**10. Longitudinal p-tau217** 
+
++ p-tau217 ~ Gene 
++ p-tau217 ~ Gene x Sex 
++ p-tau217 ~ Gene x E4 
++ p-tau217 ~ Gene x Sex x E4 
++ p-tau217 ~ Gene x Amyloid 
++ p-tau217 ~ Gene x Sex x Amyloid
