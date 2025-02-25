@@ -4,7 +4,7 @@
     "href": "bl_ptau_sensitivity_treatvsplacebo.html",
     "title": "Sensitivity Analysis: A4 Treated vs Placebo",
     "section": "",
-    "text": "pTau ~ Gene x APOEe4",
+    "text": "Group Differences",
     "crumbs": [
       "Baseline p-tau217 Analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
@@ -65,7 +65,7 @@
     "href": "visualizations.html",
     "title": "Visualizations",
     "section": "",
-    "text": "Longitudinal PACC",
+    "text": "Baseline Distributions",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
     ]
@@ -346,6 +346,220 @@
     "crumbs": [
       "Baseline p-tau217 Analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#pacc",
+    "href": "visualizations.html#pacc",
+    "title": "Visualizations",
+    "section": "PACC",
+    "text": "PACC",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#amyloid",
+    "href": "visualizations.html#amyloid",
+    "title": "Visualizations",
+    "section": "Amyloid",
+    "text": "Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#mtl-tau",
+    "href": "visualizations.html#mtl-tau",
+    "title": "Visualizations",
+    "section": "MTL Tau",
+    "text": "MTL Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#neo-tau",
+    "href": "visualizations.html#neo-tau",
+    "title": "Visualizations",
+    "section": "NEO Tau",
+    "text": "NEO Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#p-tau217",
+    "href": "visualizations.html#p-tau217",
+    "title": "Visualizations",
+    "section": "p-tau217",
+    "text": "p-tau217",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#pacc-1",
+    "href": "visualizations.html#pacc-1",
+    "title": "Visualizations",
+    "section": "PACC",
+    "text": "PACC",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#mtl-tau-1",
+    "href": "visualizations.html#mtl-tau-1",
+    "title": "Visualizations",
+    "section": "MTL Tau",
+    "text": "MTL Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#neo-tau-1",
+    "href": "visualizations.html#neo-tau-1",
+    "title": "Visualizations",
+    "section": "NEO Tau",
+    "text": "NEO Tau",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#p-tau217-1",
+    "href": "visualizations.html#p-tau217-1",
+    "title": "Visualizations",
+    "section": "p-tau217",
+    "text": "p-tau217",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "visualizations.html#amyloid-1",
+    "href": "visualizations.html#amyloid-1",
+    "title": "Visualizations",
+    "section": "Amyloid",
+    "text": "Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Longitudinal A4 & Gene Expression Project",
+    "section": "",
+    "text": "The data used for this project includes all A4 and LEARN participants (including screen fails) with Autosomal and X-linked RNAseq data available (N = 1,737). The longitudinal data includes all available follow up, including the open label period.\nProject Aims:\n\nTest the association of gene expression with baseline and longitudinal PACC, amyloid, tau, and p-tau217.\nSee if these associations are modified by sex, APOEe4 status, sex x APOEe4 status, amyloid burden, amyloid burden x sex.\n\nSensitivity Analyses:\n\nRun significant sex moderated models in just females and just males.\nRun analyses in just LEARN vs A4 Placebo and LEARN vs A4 Treated.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html",
+    "href": "amyloid_analyses.html",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#volcano-plot",
+    "href": "amyloid_analyses.html#volcano-plot",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#summary-table",
+    "href": "amyloid_analyses.html#summary-table",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#significant-results-plots",
+    "href": "amyloid_analyses.html#significant-results-plots",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "null_results.html",
+    "href": "null_results.html",
+    "title": "Null Results",
+    "section": "",
+    "text": "The following analyses did not reveal any significant results after fdr correction:\n1. Baseline PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\nPACC ~ Gene x Sex x E4\nPACC ~ Gene x Amyloid\nPACC ~ Gene x Sex x Amyloid\n\n2. Baseline Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x E4\nAmyloid ~ Gene x Sex x E4\n\n3. Baseline MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n4. Baseline NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n5. Baseline p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex \np-tau217 ~ Gene x Sex x E4\n\n6. Longitudinal PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\n\n7. Longitudinal Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x Sex x E4\n\n8. Longitudinal MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n9. Longitudinal NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n10. Longitudinal p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex\np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Amyloid\np-tau217 ~ Gene x Sex x Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Null Results</span>"
+    ]
+  },
+  {
+    "objectID": "model_summary.html",
+    "href": "model_summary.html",
+    "title": "Analysis Overview",
+    "section": "",
+    "text": "The following analyses were run adjusted for baseline age, and sex. Baseline models adjusted for cohort (A4 vs LEARN), while longitudinal models adjusted for cohort (A4 Placebo vs A4 Treated vs LEARN/SF). PACC models additionally adjusted for education and p-tau217 models additionally adjusted for BM+\nModels highlighted in orange yielded significant results after FDR correction.\n1. Baseline PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\nPACC ~ Gene x Sex x E4\nPACC ~ Gene x Amyloid\nPACC ~ Gene x Sex x Amyloid\n\n2. Baseline Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\nAmyloid ~ Gene x E4\nAmyloid ~ Gene x Sex x E4\n\n3. Baseline MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n4. Baseline NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n5. Baseline p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex \np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Ab\np-tau217 ~ Gene x Sex x Ab\n\n6. Longitudinal PACC\n\nPACC ~ Gene\nPACC ~ Gene x Sex\nPACC ~ Gene x E4\n PACC ~ Gene x Sex x E4 \n PACC ~ Gene x Ab \n PACC ~ Gene x Sex x Ab \n\n7. Longitudinal Amyloid\n\nAmyloid ~ Gene\nAmyloid ~ Gene x Sex\n Amyloid ~ Gene x E4 \nAmyloid ~ Gene x Sex x E4\n\n8. Longitudinal MTL Tau\n\nMTL ~ Gene\nMTL ~ Gene x Sex\nMTL ~ Gene x E4\nMTL ~ Gene x Sex x E4\nMTL ~ Gene x Amyloid\nMTL ~ Gene x Sex x Amyloid\n\n9. Longitudinal NEO Tau\n\nNEO ~ Gene\nNEO ~ Gene x Sex\nNEO ~ Gene x E4\nNEO ~ Gene x Sex x E4\nNEO ~ Gene x Amyloid\nNEO ~ Gene x Sex x Amyloid\n\n10. Longitudinal p-tau217\n\np-tau217 ~ Gene\np-tau217 ~ Gene x Sex\np-tau217 ~ Gene x E4\np-tau217 ~ Gene x Sex x E4\np-tau217 ~ Gene x Amyloid\np-tau217 ~ Gene x Sex x Amyloid",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Analysis Overview</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html",
+    "href": "amyloid_sensitivity_nosf.html",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "href": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#summary-table",
+    "href": "amyloid_sensitivity_nosf.html#summary-table",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "href": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
     ]
   }
 ]
