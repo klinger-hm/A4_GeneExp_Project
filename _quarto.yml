@@ -22,8 +22,7 @@ book:
     - part: bl_ptau_analyses.qmd 
       chapters:
         - bl_ptau_sensitivity_treatvsplacebo.qmd
-    - null_results.qmd
-
+        
 format:
   html:
     self-contained: true
