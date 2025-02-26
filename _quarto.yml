@@ -16,7 +16,6 @@ book:
     - manhattan_plots.qmd
     - part: pacc_analyses.qmd
       chapters:
-        - pacc_sensitivity_nosf.qmd
         - pacc_sensitivity_sexstratified.qmd
         - pacc_sensitivity_treatvsplacebo.qmd
     - part: amyloid_analyses.qmd
@@ -25,8 +24,7 @@ book:
     - part: bl_ptau_analyses.qmd 
       chapters:
         - bl_ptau_sensitivity_treatvsplacebo.qmd
-        - bl_ptau_analyses_old.qmd
-        
+
 format:
   html:
     self-contained: true
