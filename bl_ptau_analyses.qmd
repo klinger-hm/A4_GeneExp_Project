@@ -191,6 +191,8 @@ pTAUTable_GeneAb <- pTAUTable_GeneAb %>%
   ))
 ```
 
+There are `r length(subset(pTAUTable_GeneAb, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
+
 ### Volcano Plot
 
 ```{r}
@@ -278,77 +280,24 @@ plot_model(fit1, type = "pred", terms = c("ENSG00000248019", "bl_Amyloid")) +
 ## pTAU \~ Gene x Sex x Amyloid {.tabset}
 
 ```{r}
-bl_model_loops <- function(data, genes, outcome, predictor, covariates, main, tab_name, folder, mod_type){
-  ModelTable <- data.frame(gene = character(length(genes)), beta = numeric(length(genes)), se = numeric(length(genes)), t = numeric(length(genes)), p = numeric(length(genes)))
-  
-  for (i in 1:length(genes)){
-    modelSum <- summary(lm(reformulate(c(paste0(genes[i], predictor), covariates), response = outcome), 
-                            data = data, na.action = "na.omit"
-    ))
-    ModelTable[i,2:5] <- modelSum$coefficients[which(rownames(modelSum$coefficients) == paste0(genes[i], main)),]
-    ModelTable[i,1] <- genes[i]
-  }
-  ModelTable$fdr_p <- NA
-  ModelTable$outcome <- outcome
-  assign(tab_name, ModelTable, .GlobalEnv)
-}
-```
+BL_pTAUTable_GeneSexAb <- merge(BL_pTAUTable_GeneSexAb, gene_names, by = "gene", all.x = TRUE)
 
-```{r}
-bl_model_loops(data = subset(baseline, SEX == "Female"), 
-            genes = subset(BL_pTAUTable_GeneSexAb, fdr_p < 0.05)$gene,
-            outcome = "bl_ptau217",
-            predictor = "*bl_Amyloid",
-            covariates = c("bl_ptau_age_new", "Cohort", "BMIBL"),
-            main = ":bl_Amyloid",
-            tab_name = "tmp1",
-            folder = "Baseline pTAU Models",
-            mod_type = "pTAUTable_GeneSexAb")
-
-tmp1$Subset <- "Females"
-BL_pTAUTable_GeneSexAb$Subset <- "All"
-
-pTAUTable_GeneSexAb <- rbind.fill(BL_pTAUTable_GeneSexAb, tmp1)
-
-bl_model_loops(data = subset(baseline, SEX == "Male"), 
-            genes = subset(BL_pTAUTable_GeneSexAb, fdr_p < 0.05)$gene,
-            outcome = "bl_ptau217",
-            predictor = "*bl_Amyloid",
-            covariates = c("bl_ptau_age_new", "Cohort", "BMIBL"),
-            main = ":bl_Amyloid",
-            tab_name = "tmp2",
-            folder = "Baseline pTAU Models",
-            mod_type = "pTAUTable_GeneAb")
-
-tmp2$Subset <- "Males"
-
-pTAUTable_GeneSexAb <- rbind.fill(pTAUTable_GeneSexAb, tmp2)
-```
-
-```{r}
-pTAUTable_GeneSexAb$new_fdr_p <- p.adjust(pTAUTable_GeneSexAb$p, method = "fdr")
-
-pTAUTable_GeneSexAb$fdr_p <- ifelse(is.na(pTAUTable_GeneSexAb$fdr_p), pTAUTable_GeneSexAb$new_fdr_p, pTAUTable_GeneSexAb$fdr_p)
-pTAUTable_GeneSexAb <- select(pTAUTable_GeneSexAb, -c(new_fdr_p))
-```
-
-```{r}
-pTAUTable_GeneSexAb <- merge(pTAUTable_GeneSexAb, gene_names, by = "gene", all.x = TRUE)
-
-pTAUTable_GeneSexAb <- pTAUTable_GeneSexAb %>%
+BL_pTAUTable_GeneSexAb <- BL_pTAUTable_GeneSexAb %>%
   mutate(Sig = case_when(
     p < 0.05 ~ T,
     TRUE ~ F
   ))
 ```
 
+There are `r length(subset(BL_pTAUTable_GeneSexAb, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
+
 ### Volcano Plot
 
 ```{r}
 
-sig_bon <- -log10(0.05/length(unique(subset(pTAUTable_GeneSexAb, Subset == "All")$gene))) #Bonferroni correction for plotting
+sig_bon <- -log10(0.05/length(unique(BL_pTAUTable_GeneSexAb$gene))) #Bonferroni correction for plotting
 
-ggplot(pTAUTable_GeneSexAb, aes(x = beta, y = -log10(p), color = Sig)) +
+ggplot(BL_pTAUTable_GeneSexAb, aes(x = beta, y = -log10(p), color = Sig)) +
   geom_point() +
   geom_hline(yintercept = -log10(0.05), color = "red", linetype = "dashed", size = 1.2) +
   geom_hline(yintercept = sig_bon, color = "blue", linetype = "dashed", size = 1) +
@@ -369,7 +318,7 @@ ggplot(pTAUTable_GeneSexAb, aes(x = beta, y = -log10(p), color = Sig)) +
 ### Summary Table
 
 ```{r}
-datatable(subset(pTAUTable_GeneSexAb, Subset == "All" & fdr_p < 0.05),
+datatable(subset(BL_pTAUTable_GeneSexAb, fdr_p < 0.05),
           filter = "top",
           rownames = FALSE,
           extensions = c('Buttons'),
