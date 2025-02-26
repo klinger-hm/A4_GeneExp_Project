@@ -625,7 +625,7 @@
     "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following baseline p-tau217 analyses:",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
     ]
   },
   {
@@ -636,7 +636,7 @@
     "text": "pTAU ~ Gene x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
     ]
   },
   {
@@ -647,7 +647,7 @@
     "text": "pTAU ~ Gene x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000284713ENSG00000248019",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
     ]
   },
   {
@@ -658,7 +658,7 @@
     "text": "pTAU ~ Gene x Sex x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000139211ENSG00000188452",
     "crumbs": [
       "Baseline p-tau217 Analyses",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
     ]
   }
 ]
