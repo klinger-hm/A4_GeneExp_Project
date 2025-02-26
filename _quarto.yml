@@ -25,6 +25,7 @@ book:
     - part: bl_ptau_analyses.qmd 
       chapters:
         - bl_ptau_sensitivity_treatvsplacebo.qmd
+        - bl_ptau_analyses_old.qmd
         
 format:
   html:
