@@ -23,6 +23,7 @@ book:
         - amyloid_sensitivity_nosf.qmd
     - part: bl_ptau_analyses.qmd 
       chapters:
+        - bl_ptau_analyses_old.qmd
         - bl_ptau_sensitivity_treatvsplacebo.qmd
 
 format:
