@@ -1,5 +1,5 @@
 ---
-title: "Baseline p-tau217 Analyses"
+title: "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)"
 ---
 
 ```{r setup, include = FALSE, warning = FALSE, message = FALSE}
@@ -29,9 +29,13 @@ gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, extern
 
 ## Baseline pTAU Models
 
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneE4_Models_2025-02-24.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneAb_Models_2025-02-24.RData")
-load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LM_BL_pTAUTable_GeneSexAb_Models_2025-02-24.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneE4_Models_2024-10-08.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneAb_Models_2024-10-08.RData")
+load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4_GeneExp_Project/Data/Baseline pTAU Models/LME_pTAUTable_GeneSexAb_Models_2024-10-08.RData")
+
+BL_pTAUTable_GeneE4 <- pTAUTable_GeneE4
+BL_pTAUTable_GeneAb <- pTAUTable_GeneAb
+BL_pTAUTable_GeneSexAb <- pTAUTable_GeneSexAb
 
 baseline <- rna %>%
   group_by(BID) %>%
@@ -56,6 +60,8 @@ baseline <- merge(baseline, bl_amyloid, by = "BID", all.x = TRUE)
 baseline <- merge(baseline, bl_ptau, by = "BID", all.x = TRUE)
 
 ```
+
+All of the following models adjust for cohort/treatment group of A4 Placebo vs A4 Treated vs LEARN while our most recent models adjust for cohort group of A4 vs LEARN.
 
 # Significant Results Table
 
@@ -95,7 +101,7 @@ datatable(All_Genes_Sig,
 
 # Analyses {.tabset}
 
-All models adjust for baseline age, sex, BMI, and cohort (A4 vs LEARN).
+All models adjust for baseline age, sex, BMI, and cohort/treatment (A4 Placebo, A4 Treated, LEARN/SF).
 
 ## pTAU \~ Gene x APOEe4 {.tabset}
 
