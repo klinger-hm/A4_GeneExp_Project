@@ -57,6 +57,7 @@ Models highlighted in orange yielded significant results after FDR correction.
 + <mark> PACC ~ Gene x Sex x E4 </mark>
 + <mark> PACC ~ Gene x Ab </mark>
 + <mark> PACC ~ Gene x Sex x Ab </mark>
++ <mark> PACC ~ Gene x p-tau217 </mark>
 
 **7. Longitudinal Amyloid**
 
