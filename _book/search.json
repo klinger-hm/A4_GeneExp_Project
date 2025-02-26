@@ -239,7 +239,7 @@
     "href": "bl_ptau_analyses.html#ptau-gene-x-amyloid",
     "title": "Baseline p-tau217 Analyses",
     "section": "pTAU ~ Gene x Amyloid",
-    "text": "pTAU ~ Gene x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000284713ENSG00000248019",
+    "text": "pTAU ~ Gene x Amyloid\nThere are 1540 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000284713ENSG00000248019",
     "crumbs": [
       "Baseline p-tau217 Analyses"
     ]
@@ -249,7 +249,7 @@
     "href": "bl_ptau_analyses.html#ptau-gene-x-sex-x-amyloid",
     "title": "Baseline p-tau217 Analyses",
     "section": "pTAU ~ Gene x Sex x Amyloid",
-    "text": "pTAU ~ Gene x Sex x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000139211ENSG00000188452",
+    "text": "pTAU ~ Gene x Sex x Amyloid\nThere are 772 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000139211ENSG00000188452",
     "crumbs": [
       "Baseline p-tau217 Analyses"
     ]
