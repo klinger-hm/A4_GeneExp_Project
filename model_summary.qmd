@@ -2,7 +2,7 @@
 title: "Analysis Overview"
 ---
 
-The following analyses were run adjusted for baseline age and sex. Baseline models adjusted for cohort using A4 vs LEARN/SF, while longitudinal models adjusted for cohort using A4 Placebo vs A4 Treated vs LEARN/SF. PACC models additionally adjusted for education and p-tau217 models additionally adjusted for BMI.
+The following analyses were run adjusted for baseline age and sex. Baseline models adjusted for cohort using A4 vs LEARN/SF, while longitudinal models adjusted for cohort using A4 Placebo vs A4 Treated vs LEARN/SF. All PACC models are additionally adjusted for education, and longitudinal PACC models are additionally adjusted for PACC version and cumulative dose. p-tau217 models additionally adjusted for BMI.
 
 Models highlighted in orange yielded significant results after FDR correction.
 
