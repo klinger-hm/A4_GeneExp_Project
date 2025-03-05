@@ -1,0 +1,17 @@
+{
+  "hash": "489386fcc515a61501f74ed28ac2d227",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Visualizations\"\n---\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n\n# Baseline Distributions\n\n## PACC\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## Amyloid\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## MTL Tau\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## NEO Tau\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-6-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## p-tau217\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-7-1.png){width=672}\n:::\n:::\n\n\n\n\n\n# Longitudinal Trajectories\n\n## PACC\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-8-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## Amyloid\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-9-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## MTL Tau\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-10-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## NEO Tau\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-11-1.png){width=672}\n:::\n:::\n\n\n\n\n\n## p-tau217\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualizations_files/figure-html/unnamed-chunk-12-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "visualizations_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
