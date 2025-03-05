@@ -1,5 +1,5 @@
 ---
-title: "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)"
+title: "Longitudinal Amyloid Analyses"
 date: "`r Sys.Date()`"
 output: 
   html_document:
@@ -36,7 +36,7 @@ load("~/Dropbox (Partners HealthCare)/Mabel/Longitudinal A4 & Gene Expression/A4
 gene_names <- select(gene_names, gene = ensembl_gene_id, chromosome_name, external_gene_name)
 ```
 
-The following analyses are re-run versions of our previously found significant results, but this time only including participants from A4 and LEARN (not including participants who screen failed and don't have longitudinal data).
+The following analyses are re-run versions of our previously found significant results, but this time only including participants from A4 and LEARN (not including participants who screen failed and don't have longitudinal data). The results are the same regardless if SF participants are included.
 
 # Significant Results Table
 
@@ -64,8 +64,7 @@ datatable(All_Genes_Sig,
   formatStyle("fdr_p", color = styleInterval(0.05, c("red", "black")))
 ```
 
-# Amyloid ~ Gene x APOEe4 {.tabset}
-
+# Amyloid \~ Gene x APOEe4 {.tabset}
 
 ```{r}
 AbTable_GeneE4_NoSF <- AbTable_GeneE4_NoSF %>%
@@ -135,4 +134,3 @@ plot_model(fit, type = "pred", terms = c("ab_time", "ENSG00000233785", "APOE")) 
     color = "ENSG00000233785\n(SAT1-DT)"
   )
 ```
-

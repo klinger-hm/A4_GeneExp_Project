@@ -14,17 +14,12 @@ book:
     - visualizations.qmd
     - model_summary.qmd
     - manhattan_plots.qmd
-    - part: pacc_analyses.qmd
+    - part: pacc_sensitivity_nosf.qmd
       chapters:
-        - pacc_sensitivity_nosf.qmd
         - pacc_sensitivity_sexstratified.qmd
-        - pacc_sensitivity_treatvsplacebo.qmd
-    - part: amyloid_analyses.qmd
-      chapters: 
-        - amyloid_sensitivity_nosf.qmd
-    - part: bl_ptau_analyses.qmd 
+    - amyloid_sensitivity_nosf.qmd
+    - part: bl_ptau_analyses_old.qmd
       chapters:
-        - bl_ptau_analyses_old.qmd
         - bl_ptau_sensitivity_treatvsplacebo.qmd
 
 
