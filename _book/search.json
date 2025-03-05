@@ -341,5 +341,144 @@
       "Longitudinal Amyloid Analyses",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
     ]
+  },
+  {
+    "objectID": "bl_ptau_analyses_old.html",
+    "href": "bl_ptau_analyses_old.html",
+    "title": "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following baseline p-tau217 analyses:",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses_old.html#ptau-gene-x-apoee4",
+    "href": "bl_ptau_analyses_old.html#ptau-gene-x-apoee4",
+    "title": "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)",
+    "section": "pTAU ~ Gene x APOEe4",
+    "text": "pTAU ~ Gene x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses_old.html#ptau-gene-x-amyloid",
+    "href": "bl_ptau_analyses_old.html#ptau-gene-x-amyloid",
+    "title": "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)",
+    "section": "pTAU ~ Gene x Amyloid",
+    "text": "pTAU ~ Gene x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000284713ENSG00000248019",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses_old.html#ptau-gene-x-sex-x-amyloid",
+    "href": "bl_ptau_analyses_old.html#ptau-gene-x-sex-x-amyloid",
+    "title": "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)",
+    "section": "pTAU ~ Gene x Sex x Amyloid",
+    "text": "pTAU ~ Gene x Sex x Amyloid\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000139211ENSG00000188452",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "",
+    "text": "Group Differences",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Treated",
+    "text": "Unaligned Genes in A4 Treated\n6 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Placebo",
+    "text": "Unaligned Genes in A4 Placebo\n11 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated-1",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-treated-1",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Treated",
+    "text": "Unaligned Genes in A4 Treated\n1 genes have a beta in the opposite direction in A4 Treated relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo-1",
+    "href": "bl_ptau_sensitivity_treatvsplacebo.html#unaligned-genes-in-a4-placebo-1",
+    "title": "Sensitivity Analysis: A4 Treated vs Placebo",
+    "section": "Unaligned Genes in A4 Placebo",
+    "text": "Unaligned Genes in A4 Placebo\n87 genes have a beta in the opposite direction in A4 Placebo relative to LEARN than they did across all participants.",
+    "crumbs": [
+      "Baseline p-tau217 Analyses",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses.html",
+    "href": "bl_ptau_analyses.html",
+    "title": "Baseline p-tau217 Analyses",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following baseline p-tau217 analyses:",
+    "crumbs": [
+      "Baseline p-tau217 Analyses"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses.html#ptau-gene-x-apoee4",
+    "href": "bl_ptau_analyses.html#ptau-gene-x-apoee4",
+    "title": "Baseline p-tau217 Analyses",
+    "section": "pTAU ~ Gene x APOEe4",
+    "text": "pTAU ~ Gene x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots",
+    "crumbs": [
+      "Baseline p-tau217 Analyses"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses.html#ptau-gene-x-amyloid",
+    "href": "bl_ptau_analyses.html#ptau-gene-x-amyloid",
+    "title": "Baseline p-tau217 Analyses",
+    "section": "pTAU ~ Gene x Amyloid",
+    "text": "pTAU ~ Gene x Amyloid\nThere are 1540 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000284713ENSG00000248019",
+    "crumbs": [
+      "Baseline p-tau217 Analyses"
+    ]
+  },
+  {
+    "objectID": "bl_ptau_analyses.html#ptau-gene-x-sex-x-amyloid",
+    "href": "bl_ptau_analyses.html#ptau-gene-x-sex-x-amyloid",
+    "title": "Baseline p-tau217 Analyses",
+    "section": "pTAU ~ Gene x Sex x Amyloid",
+    "text": "pTAU ~ Gene x Sex x Amyloid\nThere are 772 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000139211ENSG00000188452",
+    "crumbs": [
+      "Baseline p-tau217 Analyses"
+    ]
   }
 ]
