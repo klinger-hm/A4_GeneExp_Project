@@ -108,5 +108,154 @@
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Manhattan Plots</span>"
     ]
+  },
+  {
+    "objectID": "pacc_sensitivity_treatvsplacebo.html",
+    "href": "pacc_sensitivity_treatvsplacebo.html",
+    "title": "Sensitivity Analysis: A4 Treated vs A4 Placebo",
+    "section": "",
+    "text": "still need to run this analysis",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sensitivity Analysis: A4 Treated vs A4 Placebo</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_nosf.html",
+    "href": "pacc_sensitivity_nosf.html",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal PACC analyses:",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_nosf.html#pacc-gene-x-sex-x-apoee4",
+    "href": "pacc_sensitivity_nosf.html#pacc-gene-x-sex-x-apoee4",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "PACC ~ Gene x Sex x APOEe4",
+    "text": "PACC ~ Gene x Sex x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000211745",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_nosf.html#pacc-gene-x-amyloid",
+    "href": "pacc_sensitivity_nosf.html#pacc-gene-x-amyloid",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "PACC ~ Gene x Amyloid",
+    "text": "PACC ~ Gene x Amyloid\nThere are 6 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000115942ENSG00000240132",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_nosf.html#pacc-gene-x-sex-x-amyloid",
+    "href": "pacc_sensitivity_nosf.html#pacc-gene-x-sex-x-amyloid",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "PACC ~ Gene x Sex x Amyloid",
+    "text": "PACC ~ Gene x Sex x Amyloid\nThere are 110 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000176371ENSG00000163082",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_nosf.html#pacc-gene-x-p-tau",
+    "href": "pacc_sensitivity_nosf.html#pacc-gene-x-p-tau",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "PACC ~ Gene x p-tau",
+    "text": "PACC ~ Gene x p-tau\nStill need to run",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_sexstratified.html",
+    "href": "pacc_sensitivity_sexstratified.html",
+    "title": "Sensitivity Analysis: Sex Stratified",
+    "section": "",
+    "text": "Females",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_sexstratified.html#females",
+    "href": "pacc_sensitivity_sexstratified.html#females",
+    "title": "Sensitivity Analysis: Sex Stratified",
+    "section": "",
+    "text": "Summary Table\n\n\n\n\n\n\n\n\nPlotted Output\n\nENSG00000205356ENSG00000162543",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_sensitivity_sexstratified.html#males",
+    "href": "pacc_sensitivity_sexstratified.html#males",
+    "title": "Sensitivity Analysis: Sex Stratified",
+    "section": "Males",
+    "text": "Males\n\nSummary Table\n\n\n\n\n\n\n\n\nPlotted Output\n\nENSG00000279245ENSG00000164308",
+    "crumbs": [
+      "Longitudinal PACC Analyses",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sensitivity Analysis: Sex Stratified</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_analyses.html",
+    "href": "pacc_analyses.html",
+    "title": "Longitudinal PACC Analyses",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal PACC analyses:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_analyses.html#pacc-gene-x-sex-x-apoee4",
+    "href": "pacc_analyses.html#pacc-gene-x-sex-x-apoee4",
+    "title": "Longitudinal PACC Analyses",
+    "section": "PACC ~ Gene x Sex x APOEe4",
+    "text": "PACC ~ Gene x Sex x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000211745",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_analyses.html#pacc-gene-x-amyloid",
+    "href": "pacc_analyses.html#pacc-gene-x-amyloid",
+    "title": "Longitudinal PACC Analyses",
+    "section": "PACC ~ Gene x Amyloid",
+    "text": "PACC ~ Gene x Amyloid\nThere are 6 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000115942ENSG00000240132",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_analyses.html#pacc-gene-x-sex-x-amyloid",
+    "href": "pacc_analyses.html#pacc-gene-x-sex-x-amyloid",
+    "title": "Longitudinal PACC Analyses",
+    "section": "PACC ~ Gene x Sex x Amyloid",
+    "text": "PACC ~ Gene x Sex x Amyloid\nThere are 118 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000176371ENSG00000163082",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+    ]
+  },
+  {
+    "objectID": "pacc_analyses.html#pacc-gene-x-p-tau",
+    "href": "pacc_analyses.html#pacc-gene-x-p-tau",
+    "title": "Longitudinal PACC Analyses",
+    "section": "PACC ~ Gene x p-tau",
+    "text": "PACC ~ Gene x p-tau\nThere are 17 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000278434ENSG00000225981",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+    ]
   }
 ]
