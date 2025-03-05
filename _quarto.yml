@@ -14,7 +14,11 @@ book:
     - visualizations.qmd
     - model_summary.qmd
     - manhattan_plots.qmd
-
+    - part: pacc_analyses.qmd
+      chapters:
+        - pacc_sensitivity_nosf.qmd
+        - pacc_sensitivity_sexstratified.qmd
+        - pacc_sensitivity_treatvsplacebo.qmd
 
 format:
   html:
