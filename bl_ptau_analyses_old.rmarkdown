@@ -1,5 +1,5 @@
 ---
-title: "Baseline p-tau217 Analyses"
+title: "Old Version: Baseline p-tau217 Analyses (Adjusted for Treatment)"
 ---
 
 ```{r setup, include = FALSE, warning = FALSE, message = FALSE}
@@ -61,6 +61,9 @@ baseline <- merge(baseline, bl_ptau, by = "BID", all.x = TRUE)
 
 ```
 
+
+
+
 All of the following models adjust for cohort/treatment group of A4 Placebo vs A4 Treated vs LEARN while our most recent models adjust for cohort group of A4 vs LEARN.
 
 # Significant Results Table
@@ -73,6 +76,9 @@ Summary table of all significant results (after fdr correction) from the followi
 4.  Baseline p-tau217 \~ GeneExp\*Sex\*E4
 5.  Baseline p-tau217 \~ GeneExp\*Ab
 6.  Baseline p-tau217 \~ GeneExp\*Ab\*Sex
+
+
+
 
 ```{r}
 BL_pTAUTable_GeneE4$predictor <- "Gene*E4"
@@ -99,11 +105,17 @@ datatable(All_Genes_Sig,
   formatStyle("fdr_p", color = styleInterval(0.05, c("red", "black")))
 ```
 
+
+
+
 # Analyses {.tabset}
 
 All models adjust for baseline age, sex, BMI, and cohort/treatment (A4 Placebo, A4 Treated, LEARN/SF).
 
 ## pTAU \~ Gene x APOEe4 {.tabset}
+
+
+
 
 ```{r}
 pTAUTable_GeneE4 <- merge(BL_pTAUTable_GeneE4, gene_names, by = "gene", all.x = TRUE)
@@ -115,9 +127,15 @@ pTAUTable_GeneE4 <- pTAUTable_GeneE4 %>%
   ))
 ```
 
+
+
+
 There is `r length(subset(pTAUTable_GeneE4, fdr_p < 0.05)$gene)` significant gene that survives FDR correction.
 
 ### Volcano Plot
+
+
+
 
 ```{r}
 
@@ -141,7 +159,13 @@ ggplot(pTAUTable_GeneE4, aes(x = beta, y = -log10(p), color = Sig)) +
 
 ```
 
+
+
+
 ### Summary Table
+
+
+
 
 ```{r}
 all_sig <- pTAUTable_GeneE4 %>%
@@ -166,9 +190,15 @@ baseline$APOE <- as.factor(baseline$APOE)
 baseline$Cohort <- as.factor(baseline$Cohort)
 ```
 
+
+
+
 ### Significant Results Plots
 
 ::: panel-tabset
+
+
+
 ```{r}
 fit1 <- lm(bl_ptau217 ~ ENSG00000273139*APOE + SEX + bl_ptau_age_new + 
             BMIBL + Cohort, data = baseline, na.action = "na.omit")
@@ -183,9 +213,15 @@ plot_model(fit1, type = "pred", terms = c("ENSG00000273139", "APOE")) +
     color = "APOEε4 Status"
   )
 ```
+
+
+
 :::
 
 ## pTAU \~ Gene x Amyloid {.tabset}
+
+
+
 
 ```{r}
 pTAUTable_GeneAb <- merge(BL_pTAUTable_GeneAb, gene_names, by = "gene", all.x = TRUE)
@@ -197,7 +233,13 @@ pTAUTable_GeneAb <- pTAUTable_GeneAb %>%
   ))
 ```
 
+
+
+
 ### Volcano Plot
+
+
+
 
 ```{r}
 
@@ -222,7 +264,13 @@ ggplot(pTAUTable_GeneAb, aes(x = beta, y = -log10(p), color = Sig)) +
 
 ```
 
+
+
+
 ### Summary Table
+
+
+
 
 ```{r}
 all_sig <- pTAUTable_GeneAb %>%
@@ -241,10 +289,16 @@ datatable(all_sig,
 
 ```
 
+
+
+
 ### Significant Results Plots
 
 ::: panel-tabset
 #### ENSG00000284713
+
+
+
 
 ```{r}
 fit1 <- lm(bl_ptau217 ~ ENSG00000284713*bl_Amyloid + SEX + bl_ptau_age_new + 
@@ -262,7 +316,13 @@ plot_model(fit1, type = "pred", terms = c("ENSG00000284713", "bl_Amyloid")) +
 
 ```
 
+
+
+
 #### ENSG00000248019
+
+
+
 
 ```{r}
 fit1 <- lm(bl_ptau217 ~ ENSG00000248019*bl_Amyloid + SEX + bl_ptau_age_new + 
@@ -279,9 +339,15 @@ plot_model(fit1, type = "pred", terms = c("ENSG00000248019", "bl_Amyloid")) +
   )
 
 ```
+
+
+
 :::
 
 ## pTAU \~ Gene x Sex x Amyloid {.tabset}
+
+
+
 
 ```{r}
 bl_model_loops <- function(data, genes, outcome, predictor, covariates, main, tab_name, folder, mod_type){
@@ -348,7 +414,13 @@ pTAUTable_GeneSexAb <- pTAUTable_GeneSexAb %>%
   ))
 ```
 
+
+
+
 ### Volcano Plot
+
+
+
 
 ```{r}
 
@@ -372,7 +444,13 @@ ggplot(pTAUTable_GeneSexAb, aes(x = beta, y = -log10(p), color = Sig)) +
 
 ```
 
+
+
+
 ### Summary Table
+
+
+
 
 ```{r}
 datatable(subset(pTAUTable_GeneSexAb, Subset == "All" & fdr_p < 0.05),
@@ -388,10 +466,16 @@ datatable(subset(pTAUTable_GeneSexAb, Subset == "All" & fdr_p < 0.05),
 
 ```
 
+
+
+
 ### Significant Results Plots
 
 ::: panel-tabset
 #### ENSG00000139211
+
+
+
 
 ```{r}
 fit2 <- lm(bl_ptau217 ~ ENSG00000139211*SEX*bl_Amyloid + bl_ptau_age_new + 
@@ -409,7 +493,13 @@ plot_model(fit2, type = "pred", terms = c("ENSG00000139211", "bl_Amyloid", "SEX"
   )
 ```
 
+
+
+
 #### ENSG00000188452
+
+
+
 
 ```{r}
 fit2 <- lm(bl_ptau217 ~ ENSG00000188452*SEX*bl_Amyloid + bl_ptau_age_new + 
@@ -427,4 +517,8 @@ plot_model(fit2, type = "pred", terms = c("ENSG00000188452", "bl_Amyloid", "SEX"
     color = "Baseline Global\nAmyloid Burden"
   )
 ```
+
+
+
 :::
+
