@@ -215,7 +215,7 @@
     "section": "",
     "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal PACC analyses:",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+      "Longitudinal PACC Analyses"
     ]
   },
   {
@@ -225,7 +225,7 @@
     "section": "PACC ~ Gene x Sex x APOEe4",
     "text": "PACC ~ Gene x Sex x APOEe4\nThere is 1 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000211745",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+      "Longitudinal PACC Analyses"
     ]
   },
   {
@@ -235,7 +235,7 @@
     "section": "PACC ~ Gene x Amyloid",
     "text": "PACC ~ Gene x Amyloid\nThere are 6 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000115942ENSG00000240132",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+      "Longitudinal PACC Analyses"
     ]
   },
   {
@@ -245,7 +245,7 @@
     "section": "PACC ~ Gene x Sex x Amyloid",
     "text": "PACC ~ Gene x Sex x Amyloid\nThere are 118 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\nPlots of select significant genes\n\nENSG00000176371ENSG00000163082",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+      "Longitudinal PACC Analyses"
     ]
   },
   {
@@ -255,7 +255,91 @@
     "section": "PACC ~ Gene x p-tau",
     "text": "PACC ~ Gene x p-tau\nThere are 17 significant gene that survives FDR correction.\n\nVolcano Plot\n\n\n\n\n\n\n\n\n\n\n\nSummary Table\n\n\n\n\n\n\n\n\nSignificant Results Plots\n\nENSG00000278434ENSG00000225981",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Longitudinal PACC Analyses</span>"
+      "Longitudinal PACC Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html",
+    "href": "amyloid_analyses.html",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#volcano-plot",
+    "href": "amyloid_analyses.html#volcano-plot",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#summary-table",
+    "href": "amyloid_analyses.html#summary-table",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_analyses.html#significant-results-plots",
+    "href": "amyloid_analyses.html#significant-results-plots",
+    "title": "Longitudinal Amyloid Analyses",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html",
+    "href": "amyloid_sensitivity_nosf.html",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "",
+    "text": "Significant Results Table\nSummary table of all significant results (after fdr correction) from the following longitudinal Amyloid analyses:",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "href": "amyloid_sensitivity_nosf.html#volcano-plot",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Volcano Plot",
+    "text": "Volcano Plot",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#summary-table",
+    "href": "amyloid_sensitivity_nosf.html#summary-table",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Summary Table",
+    "text": "Summary Table",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
+    ]
+  },
+  {
+    "objectID": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "href": "amyloid_sensitivity_nosf.html#significant-results-plots",
+    "title": "Sensitivity Analysis: A4/LEARN Only (No Screen Fails)",
+    "section": "Significant Results Plots",
+    "text": "Significant Results Plots\n\nENSG00000233785",
+    "crumbs": [
+      "Longitudinal Amyloid Analyses",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sensitivity Analysis: A4/LEARN Only (No Screen Fails)</span>"
     ]
   }
 ]
