@@ -65,8 +65,7 @@ datatable(All_Genes_Sig,
   formatStyle("fdr_p", color = styleInterval(0.05, c("red", "black")))
 ```
 
-# Amyloid ~ Gene x APOEe4 {.tabset}
-
+# Amyloid \~ Gene x APOEe4 {.tabset}
 
 ```{r}
 AbTable_GeneE4 <- AbTable_GeneE4 %>%
@@ -136,4 +135,3 @@ plot_model(fit, type = "pred", terms = c("ab_time", "ENSG00000233785", "APOE")) 
     color = "ENSG00000233785\n(SAT1-DT)"
   )
 ```
-
