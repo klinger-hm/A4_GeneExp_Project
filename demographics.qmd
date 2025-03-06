@@ -141,7 +141,7 @@ tbl_summary(baseline,
 Demographics for participants with at least two PACC visits
 
 ```{r}
-tbl_summary(subset(baseline, pacc_tp > 1),
+tbl_summary(subset(baseline, pacc_tp > 1 & SUBSTUDY != "SF"),
             missing = "no",
             by = SUBSTUDY,
             include = c(bl_pacc_age, SEX, EDCCNTU, APOE, PACC, 
